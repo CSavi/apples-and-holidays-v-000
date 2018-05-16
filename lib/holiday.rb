@@ -46,6 +46,8 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
     holiday.each do |supplies|
       supplies 
+    end 
+  end   
   # Winter:
   #   Christmas: Lights, Wreath
   #   New Years: Party Hats
